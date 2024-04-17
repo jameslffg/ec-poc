@@ -1,0 +1,35 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.login-tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.login-tab {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.login-tab:hover {
+    cursor: pointer;
+}
+
+.selected-tab {
+    background-color: green;
+    color: white;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}

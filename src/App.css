@@ -1,0 +1,55 @@
+html, body, #root {
+  position: relative;
+  width: 100%;
+}
+
+.mobile-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+
+  width: 375px;
+  height: 812px;
+  border: 1px solid black;
+}
+
+.mobile-content {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mobile-indicators * {
+  margin-left: 5px;
+}
+
+.challenge-tags {
+  display: flex;
+  justify-content: center;
+}
+
+.challenge-tag {
+  border-radius: 10px;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+.community {
+  background-color: hotpink;
+}
+
+.nature {
+  background-color: green;
+  color: white;
+}
